@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_about_hub_future_steps",
+  "info": {
+    "displayName": "AboutHubFutureStep"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

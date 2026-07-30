@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_philosophy_processes",
+  "info": {
+    "displayName": "Philosophy Process"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.philosophy-process-step",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

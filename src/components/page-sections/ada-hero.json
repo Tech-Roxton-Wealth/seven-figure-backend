@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_page_sections_ada_heroes",
+  "info": {
+    "displayName": "Ada Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "bodyParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImageAlt": {
+      "type": "string"
+    },
+    "captionKicker": {
+      "type": "string"
+    },
+    "captionHeading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

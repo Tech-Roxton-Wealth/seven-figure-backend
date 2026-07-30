@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_page_sections_private_client_heroes",
+  "info": {
+    "displayName": "PrivateClientHero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "bodyParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "sealItems": {
+      "type": "component",
+      "component": "ui.glance-item",
+      "repeatable": true,
+      "min": 1,
+      "max": 3
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "captionLabel": {
+      "type": "string"
+    },
+    "captionHeading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_page_sections_philosophy_heroes",
+  "info": {
+    "displayName": "Philosophy Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "bodyParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImageAlt": {
+      "type": "string"
+    },
+    "captionEyebrow": {
+      "type": "string"
+    },
+    "captionHeading": {
+      "type": "string"
+    },
+    "heroMapItems": {
+      "type": "component",
+      "component": "ui.philosophy-hero-map-item",
+      "repeatable": true,
+      "max": 3
+    }
+  },
+  "config": {}
+}

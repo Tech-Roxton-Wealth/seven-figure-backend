@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_promise_tiles",
+  "info": {
+    "displayName": "PromiseTile"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

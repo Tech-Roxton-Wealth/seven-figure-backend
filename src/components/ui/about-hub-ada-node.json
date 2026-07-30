@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_about_hub_ada_nodes",
+  "info": {
+    "displayName": "AboutHubAdaNode"
+  },
+  "options": {},
+  "attributes": {
+    "letter": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

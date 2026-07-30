@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_offices_pages",
+  "info": {
+    "singularName": "our-offices-page",
+    "pluralName": "our-offices-pages",
+    "displayName": "Our Offices Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "about_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::about-category.about-category"
+    },
+    "navLabel": {
+      "type": "string"
+    },
+    "navDescription": {
+      "type": "string"
+    },
+    "navOrder": {
+      "type": "integer",
+      "default": 15
+    },
+    "showInNav": {
+      "type": "boolean",
+      "default": true
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.offices-hero",
+        "page-sections.offices-network",
+        "page-sections.offices-growth",
+        "page-sections.offices-remote",
+        "page-sections.offices-hours",
+        "page-sections.offices-route",
+        "page-sections.offices-contact-band",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

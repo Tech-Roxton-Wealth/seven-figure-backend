@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_philosophy_outcome_boxes",
+  "info": {
+    "displayName": "PhilosophyOutcomeBox"
+  },
+  "options": {},
+  "attributes": {
+    "kickerMark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

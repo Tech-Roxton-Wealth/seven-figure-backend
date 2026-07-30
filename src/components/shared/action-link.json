@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_action_links",
+  "info": {
+    "displayName": "ActionLink"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "downloadFile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

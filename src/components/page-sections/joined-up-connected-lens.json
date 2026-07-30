@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_joined_up_connected_lenses",
+  "info": {
+    "displayName": "Joined Up Connected Lens"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.joined-up-lens-row",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

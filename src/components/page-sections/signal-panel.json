@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_sections_signal_panels",
+  "info": {
+    "displayName": "Signal Panel"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "secondaryParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.signal-item",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_pill_items",
+  "info": {
+    "displayName": "Pill Item"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

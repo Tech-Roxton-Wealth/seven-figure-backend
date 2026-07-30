@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_sf_home_audiences",
+  "info": {
+    "displayName": "SF Home Audiences"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "clients",
+      "description": "HTML id for in-page anchor links (without #)."
+    },
+    "eyebrow": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.sf-audience-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

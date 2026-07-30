@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_planning_need_lines",
+  "info": {
+    "displayName": "PlanningNeedLine"
+  },
+  "options": {},
+  "attributes": {
+    "categoryLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "actionLink": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

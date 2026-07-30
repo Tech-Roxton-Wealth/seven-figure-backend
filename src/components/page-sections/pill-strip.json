@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_sections_pill_strips",
+  "info": {
+    "displayName": "Pill Strip"
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string"
+    },
+    "pills": {
+      "type": "component",
+      "component": "ui.pill-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

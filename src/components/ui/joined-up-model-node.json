@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_ui_joined_up_model_nodes",
+  "info": {
+    "displayName": "JoinedUpModelNode"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_sections_offices_hours",
+  "info": {
+    "displayName": "Offices Hours"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.offices-hours-row",
+      "repeatable": true
+    },
+    "note": {
+      "type": "text"
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

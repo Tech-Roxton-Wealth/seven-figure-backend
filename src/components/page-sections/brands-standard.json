@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_brands_standards",
+  "info": {
+    "displayName": "Brands Standard"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "asideParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.brands-standard-card",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

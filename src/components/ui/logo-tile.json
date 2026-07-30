@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_logo_tiles",
+  "info": {
+    "displayName": "Logo Tile"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "logoImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

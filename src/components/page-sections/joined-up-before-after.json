@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_joined_up_before_afters",
+  "info": {
+    "displayName": "Joined Up Before After"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "beforeColumn": {
+      "type": "component",
+      "component": "ui.joined-up-ba-column",
+      "repeatable": false
+    },
+    "afterColumn": {
+      "type": "component",
+      "component": "ui.joined-up-ba-column",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_financial_age_steps",
+  "info": {
+    "displayName": "FinancialAgeStep"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

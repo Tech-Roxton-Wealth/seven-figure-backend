@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_about_hub_editorial_lines",
+  "info": {
+    "displayName": "AboutHubEditorialLine"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

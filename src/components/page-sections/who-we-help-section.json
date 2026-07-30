@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_who_we_help_sections",
+  "info": {
+    "displayName": "WhoWeHelpSection"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "description": "HTML id for in-page anchor links (without #). Example: who"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "clientRoutes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client-route.client-route"
+    }
+  },
+  "config": {}
+}

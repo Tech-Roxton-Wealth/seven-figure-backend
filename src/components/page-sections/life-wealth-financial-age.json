@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_page_sections_life_wealth_financial_ages",
+  "info": {
+    "displayName": "LifeWealthFinancialAge"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "overlayLine": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "bodyParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.financial-age-step",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_portal_route_cards",
+  "info": {
+    "displayName": "PortalRouteCard"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkLabel": {
+      "type": "string",
+      "required": true
+    },
+    "linkUrl": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

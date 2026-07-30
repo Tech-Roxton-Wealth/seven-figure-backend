@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_ada_choices",
+  "info": {
+    "displayName": "Ada Choice"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.ada-choice-card",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

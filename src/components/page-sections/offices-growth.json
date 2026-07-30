@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_offices_growths",
+  "info": {
+    "displayName": "Offices Growth"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.offices-growth-row",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

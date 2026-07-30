@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_ui_all_services_pages",
+  "info": {
+    "displayName": "AllServicesPage"
+  },
+  "options": {},
+  "attributes": {
+    "tagline": {
+      "type": "string"
+    },
+    "extendedDescription": {
+      "type": "text"
+    },
+    "imageCaption": {
+      "type": "string"
+    },
+    "showcaseImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "featureTags": {
+      "type": "component",
+      "component": "ui.tag",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

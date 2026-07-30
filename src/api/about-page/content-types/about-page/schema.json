@@ -1,0 +1,276 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "pageTemplate": {
+      "type": "enumeration",
+      "enum": [
+        "awards",
+        "press",
+        "fees",
+        "leadership",
+        "ada",
+        "joined-up",
+        "philosophy",
+        "about-hub",
+        "hmo-faqs"
+      ],
+      "required": true
+    },
+    "about_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::about-category.about-category",
+      "inversedBy": "about_pages"
+    },
+    "navLabel": {
+      "type": "string"
+    },
+    "navDescription": {
+      "type": "string"
+    },
+    "navOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "showInNav": {
+      "type": "boolean",
+      "default": true
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "awardsSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "awards"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.split-hero",
+        "page-sections.item-list",
+        "page-sections.link-panel",
+        "page-sections.final-cta"
+      ]
+    },
+    "pressSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "press"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.logo-wall",
+        "page-sections.split-hero",
+        "page-sections.card-grid",
+        "page-sections.item-list",
+        "page-sections.link-panel",
+        "page-sections.final-cta"
+      ]
+    },
+    "feesSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "fees"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.split-hero",
+        "page-sections.notice-strip",
+        "page-sections.editorial-split",
+        "page-sections.data-table",
+        "page-sections.numbered-list",
+        "page-sections.faq-grid",
+        "page-sections.disclaimer-strip",
+        "page-sections.final-cta"
+      ]
+    },
+    "leadershipSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "leadership"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.portrait-hero",
+        "page-sections.pill-strip",
+        "page-sections.pull-quote",
+        "page-sections.alternating-narrative",
+        "page-sections.numbered-list",
+        "page-sections.signal-panel",
+        "page-sections.final-cta"
+      ]
+    },
+    "adaSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "ada"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.ada-calm-nav",
+        "page-sections.ada-hero",
+        "page-sections.ada-visual-summary",
+        "page-sections.ada-intro",
+        "page-sections.ada-journey",
+        "page-sections.ada-support",
+        "page-sections.ada-choice",
+        "page-sections.ada-guide-panel",
+        "page-sections.ada-not-section",
+        "page-sections.ada-faq",
+        "page-sections.ada-final-cta"
+      ]
+    },
+    "joinedUpSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "joined-up"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.joined-up-hero",
+        "page-sections.joined-up-model-premium",
+        "page-sections.joined-up-promise",
+        "page-sections.joined-up-manifesto",
+        "page-sections.joined-up-core-model",
+        "page-sections.joined-up-before-after",
+        "page-sections.joined-up-connected-lens",
+        "page-sections.joined-up-scenario",
+        "page-sections.joined-up-framework",
+        "page-sections.joined-up-process",
+        "page-sections.joined-up-outcomes",
+        "page-sections.joined-up-guide",
+        "page-sections.joined-up-disclaimer",
+        "page-sections.joined-up-final-cta"
+      ]
+    },
+    "philosophySections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "philosophy"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.philosophy-hero",
+        "page-sections.philosophy-promise",
+        "page-sections.philosophy-manifesto",
+        "page-sections.philosophy-behaviour-model",
+        "page-sections.philosophy-money-mind",
+        "page-sections.philosophy-bias-lens",
+        "page-sections.philosophy-scenario",
+        "page-sections.philosophy-framework",
+        "page-sections.philosophy-process",
+        "page-sections.philosophy-outcomes",
+        "page-sections.philosophy-guide",
+        "page-sections.philosophy-disclaimer",
+        "page-sections.philosophy-final-cta"
+      ]
+    },
+    "aboutHubSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "about-hub"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.about-hub-hero",
+        "page-sections.about-hub-anchor-bar",
+        "page-sections.about-hub-story",
+        "page-sections.about-hub-experience",
+        "page-sections.about-hub-independent",
+        "page-sections.about-hub-proof",
+        "page-sections.about-hub-ada-teaser",
+        "page-sections.about-hub-future",
+        "page-sections.about-hub-final-cta"
+      ]
+    },
+    "hmoFaqsSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "pageTemplate"
+            },
+            "hmo-faqs"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.hmo-faq-hero",
+        "page-sections.hmo-faq-search",
+        "page-sections.hmo-faq-directory",
+        "page-sections.hmo-faq-deal-check",
+        "page-sections.hmo-faq-final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

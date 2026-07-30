@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_social_cards_grids",
+  "info": {
+    "displayName": "SocialCardsGrid"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.social-card",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

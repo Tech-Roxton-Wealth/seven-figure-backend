@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_sections_services_showcase_intros",
+  "info": {
+    "displayName": "ServicesShowcaseIntro"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

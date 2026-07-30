@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_sections_ada_visual_summaries",
+  "info": {
+    "displayName": "Ada Visual Summary"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "component": "ui.ada-summary-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

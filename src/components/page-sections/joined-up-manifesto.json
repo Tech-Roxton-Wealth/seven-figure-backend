@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_joined_up_manifestos",
+  "info": {
+    "displayName": "Joined Up Manifesto"
+  },
+  "options": {},
+  "attributes": {
+    "asideSectionLabel": {
+      "type": "string"
+    },
+    "asideHeading": {
+      "type": "string"
+    },
+    "asideParagraph": {
+      "type": "text"
+    },
+    "cardParagraphs": {
+      "type": "component",
+      "component": "ui.text-line",
+      "repeatable": true
+    },
+    "quoteText": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

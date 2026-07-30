@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_ui_contact_route_cards",
+  "info": {
+    "displayName": "ContactRouteCard"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "routeNumber": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

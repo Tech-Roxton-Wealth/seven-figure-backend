@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_step_items",
+  "info": {
+    "displayName": "StepItem"
+  },
+  "options": {},
+  "attributes": {
+    "stepNumber": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

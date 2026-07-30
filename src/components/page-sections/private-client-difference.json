@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_sections_private_client_differences",
+  "info": {
+    "displayName": "PrivateClientDifference"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "columns": {
+      "type": "component",
+      "component": "ui.diff-column",
+      "repeatable": true,
+      "min": 2,
+      "max": 2
+    }
+  },
+  "config": {}
+}

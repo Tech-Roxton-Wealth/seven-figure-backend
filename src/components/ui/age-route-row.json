@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_ui_age_route_rows",
+  "info": {
+    "displayName": "AgeRouteRow"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "decadeLabel": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "component",
+      "component": "ui.tag",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

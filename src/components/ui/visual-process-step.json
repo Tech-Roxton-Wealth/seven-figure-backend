@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_ui_visual_process_steps",
+  "info": {
+    "displayName": "VisualProcessStep"
+  },
+  "options": {},
+  "attributes": {
+    "stepNumber": {
+      "type": "string"
+    },
+    "stepWord": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stepImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

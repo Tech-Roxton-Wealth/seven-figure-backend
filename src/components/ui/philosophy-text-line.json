@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_philosophy_text_lines",
+  "info": {
+    "displayName": "PhilosophyTextLine"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_ui_programme_rows",
+  "info": {
+    "displayName": "ProgrammeRow"
+  },
+  "options": {},
+  "attributes": {
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "programmeName": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "featureTags": {
+      "type": "component",
+      "component": "ui.tag",
+      "repeatable": true
+    },
+    "showcaseImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageCaption": {
+      "type": "string"
+    },
+    "actionLink": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": false
+    },
+    "linkedPage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::partnership-page.partnership-page"
+    }
+  },
+  "config": {}
+}

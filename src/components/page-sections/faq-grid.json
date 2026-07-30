@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_faq_grids",
+  "info": {
+    "displayName": "FAQ Grid"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.faq-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

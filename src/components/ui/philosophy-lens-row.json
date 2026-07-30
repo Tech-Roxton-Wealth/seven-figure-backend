@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ui_philosophy_lens_rows",
+  "info": {
+    "displayName": "PhilosophyLensRow"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "component": "ui.philosophy-text-line",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

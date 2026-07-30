@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_ui_list_rows",
+  "info": {
+    "displayName": "List Row"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "emblemText": {
+      "type": "text"
+    },
+    "emblemCode": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "metaLabel": {
+      "type": "string"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    },
+    "rowMark": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

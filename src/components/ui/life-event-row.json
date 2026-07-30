@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_ui_life_event_rows",
+  "info": {
+    "displayName": "LifeEventRow"
+  },
+  "options": {},
+  "attributes": {
+    "indexMark": {
+      "type": "string"
+    },
+    "categoryLabel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sideHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "component",
+      "component": "ui.tag",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_ada_faq_items",
+  "info": {
+    "displayName": "AdaFaqItem"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

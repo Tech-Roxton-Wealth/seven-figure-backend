@@ -1,0 +1,194 @@
+{
+
+  "collectionName": "components_page_sections_wf_home_contacts",
+
+  "info": {
+
+    "displayName": "WF Home Contact"
+
+  },
+
+  "options": {},
+
+  "attributes": {
+
+    "anchorId": {
+
+      "type": "string",
+
+      "default": "contact"
+
+    },
+
+    "label": {
+
+      "type": "string"
+
+    },
+
+    "heading": {
+
+      "type": "string"
+
+    },
+
+    "secondaryParagraphs": {
+
+      "type": "text"
+
+    },
+
+    "points": {
+
+      "type": "component",
+
+      "component": "ui.wf-bullet-point",
+
+      "repeatable": true
+
+    },
+
+    "disclaimer": {
+
+      "type": "text"
+
+    },
+
+    "formTitle": {
+
+      "type": "string"
+
+    },
+
+    "formSecondaryParagraphs": {
+
+      "type": "text"
+
+    },
+
+    "nameLabel": {
+
+      "type": "string"
+
+    },
+
+    "namePlaceholder": {
+
+      "type": "string"
+
+    },
+
+    "emailLabel": {
+
+      "type": "string"
+
+    },
+
+    "emailPlaceholder": {
+
+      "type": "string"
+
+    },
+
+    "phoneLabel": {
+
+      "type": "string"
+
+    },
+
+    "phonePlaceholder": {
+
+      "type": "string"
+
+    },
+
+    "routeLabel": {
+
+      "type": "string"
+
+    },
+
+    "routeOptions": {
+
+      "type": "component",
+
+      "component": "ui.form-option",
+
+      "repeatable": true
+
+    },
+
+    "experienceLabel": {
+
+      "type": "string"
+
+    },
+
+    "experienceOptions": {
+
+      "type": "component",
+
+      "component": "ui.form-option",
+
+      "repeatable": true
+
+    },
+
+    "ownershipLabel": {
+
+      "type": "string"
+
+    },
+
+    "ownershipOptions": {
+
+      "type": "component",
+
+      "component": "ui.form-option",
+
+      "repeatable": true
+
+    },
+
+    "detailLabel": {
+
+      "type": "string"
+
+    },
+
+    "detailPlaceholder": {
+
+      "type": "string"
+
+    },
+
+    "consentText": {
+
+      "type": "text"
+
+    },
+
+    "submitButtonLabel": {
+
+      "type": "string"
+
+    },
+
+    "formFooterNote": {
+
+      "type": "text"
+
+    },
+
+    "successMessage": {
+
+      "type": "text"
+
+    }
+
+  },
+
+  "config": {}
+
+}
+

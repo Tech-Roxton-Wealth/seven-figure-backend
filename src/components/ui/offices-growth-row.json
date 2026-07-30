@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_offices_growth_rows",
+  "info": {
+    "displayName": "Offices Growth Row"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

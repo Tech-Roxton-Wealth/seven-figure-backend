@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.contact-hero",
+        "page-sections.contact-anchor-bar",
+        "page-sections.contact-routes",
+        "page-sections.contact-callback",
+        "page-sections.contact-advice-fit",
+        "page-sections.contact-offices",
+        "page-sections.contact-quick-links",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

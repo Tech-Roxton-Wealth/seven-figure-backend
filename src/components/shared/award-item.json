@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_award_items",
+  "info": {
+    "displayName": "AwardItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

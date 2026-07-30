@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_ui_quick_link_cards",
+  "info": {
+    "displayName": "QuickLinkCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

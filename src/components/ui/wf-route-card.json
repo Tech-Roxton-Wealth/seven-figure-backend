@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_wf_route_cards",
+  "info": {
+    "displayName": "WF Route Card"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_legal_contact_items",
+  "info": {
+    "displayName": "Legal Contact Item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

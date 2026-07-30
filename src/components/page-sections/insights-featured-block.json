@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_sections_insights_featured_blocks",
+  "info": {
+    "displayName": "InsightsFeaturedBlock"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

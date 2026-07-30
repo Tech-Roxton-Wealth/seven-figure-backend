@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_sections_client_route_image_breaks",
+  "info": {
+    "displayName": "ClientRouteImageBreak"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "visualImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "visualLine": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_info_lines",
+  "info": {
+    "displayName": "InfoLine"
+  },
+  "options": {},
+  "attributes": {
+    "categoryLabel": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

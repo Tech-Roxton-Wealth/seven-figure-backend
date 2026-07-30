@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_ada_choice_cards",
+  "info": {
+    "displayName": "AdaChoiceCard"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "quietNote": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

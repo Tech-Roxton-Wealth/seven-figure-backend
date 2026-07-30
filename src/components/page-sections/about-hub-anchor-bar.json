@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_sections_about_hub_anchor_bars",
+  "info": {
+    "displayName": "About Hub Anchor Bar"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "component": "ui.about-hub-anchor-link",
+      "repeatable": true,
+      "max": 8
+    }
+  },
+  "config": {}
+}

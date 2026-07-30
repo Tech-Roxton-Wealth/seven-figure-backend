@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_ui_about_hub_experience_rows",
+  "info": {
+    "displayName": "AboutHubExperienceRow"
+  },
+  "options": {},
+  "attributes": {
+    "mini": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "watermarkText": {
+      "type": "string"
+    },
+    "reverseLayout": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

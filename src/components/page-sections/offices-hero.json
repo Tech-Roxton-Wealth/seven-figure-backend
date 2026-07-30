@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_page_sections_offices_heroes",
+  "info": {
+    "displayName": "Offices Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "bodyParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "visualImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "visualImageAlt": {
+      "type": "string"
+    },
+    "captionKicker": {
+      "type": "string"
+    },
+    "captionHeading": {
+      "type": "string"
+    },
+    "facts": {
+      "type": "component",
+      "component": "ui.offices-hero-fact",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

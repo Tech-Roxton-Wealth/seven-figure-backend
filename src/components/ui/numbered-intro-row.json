@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_numbered_intro_rows",
+  "info": {
+    "displayName": "NumberedIntroRow"
+  },
+  "options": {},
+  "attributes": {
+    "stepNumber": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

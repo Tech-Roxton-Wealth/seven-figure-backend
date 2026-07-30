@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_life_wealth_planning_needs",
+  "info": {
+    "displayName": "LifeWealthPlanningNeeds"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.planning-need-line",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

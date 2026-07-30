@@ -1,0 +1,157 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partnership_pages",
+  "info": {
+    "singularName": "partnership-page",
+    "pluralName": "partnership-pages",
+    "displayName": "Partnership Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "partnership_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::partnership-category.partnership-category",
+      "inversedBy": "partnership_pages"
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "layoutType": {
+      "type": "enumeration",
+      "default": "hub",
+      "enum": [
+        "hub",
+        "workplace",
+        "workplace_programme",
+        "mergers_acquisitions"
+      ]
+    },
+    "hubSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "hub"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.private-client-strip",
+        "page-sections.client-route-overview",
+        "page-sections.client-route-challenges",
+        "page-sections.partnership-referral-standard",
+        "page-sections.partnership-visual-process",
+        "page-sections.life-wealth-planning-needs",
+        "page-sections.partnership-why-section",
+        "page-sections.private-client-contact",
+        "page-sections.private-client-disclaimer",
+        "page-sections.final-cta"
+      ]
+    },
+    "workplaceSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "workplace"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.private-client-strip",
+        "page-sections.partnership-referral-standard",
+        "page-sections.partnership-visual-process",
+        "page-sections.dual-guide-band",
+        "page-sections.partnership-programme-showcase",
+        "page-sections.life-wealth-planning-needs",
+        "page-sections.client-route-process",
+        "page-sections.final-cta"
+      ]
+    },
+    "programmeSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "workplace_programme"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.private-client-strip",
+        "page-sections.partnership-referral-standard",
+        "page-sections.partnership-visual-process",
+        "page-sections.dual-guide-band",
+        "page-sections.glance-strip",
+        "page-sections.client-route-overview",
+        "page-sections.client-route-challenges",
+        "page-sections.client-route-image-break",
+        "page-sections.partnership-delivery-flow",
+        "page-sections.life-wealth-planning-needs",
+        "page-sections.considerations-section",
+        "page-sections.partnership-programme-switcher",
+        "page-sections.final-cta"
+      ]
+    },
+    "maSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "mergers_acquisitions"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.private-client-strip",
+        "page-sections.client-route-overview",
+        "page-sections.client-route-challenges",
+        "page-sections.partnership-referral-standard",
+        "page-sections.partnership-world-panels",
+        "page-sections.partnership-visual-process",
+        "page-sections.partnership-ma-mid-section",
+        "page-sections.client-route-image-break",
+        "page-sections.life-wealth-planning-needs",
+        "page-sections.private-client-contact",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

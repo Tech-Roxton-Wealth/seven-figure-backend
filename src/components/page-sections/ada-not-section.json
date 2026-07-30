@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_ada_not_sections",
+  "info": {
+    "displayName": "Ada Not Section"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.ada-not-item",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

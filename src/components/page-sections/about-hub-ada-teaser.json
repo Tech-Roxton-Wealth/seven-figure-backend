@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_sections_about_hub_ada_teasers",
+  "info": {
+    "displayName": "About Hub Ada Teaser"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.about-hub-text-line",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "diagramWatermarkText": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "component",
+      "component": "ui.about-hub-ada-node",
+      "repeatable": true,
+      "max": 3
+    }
+  },
+  "config": {}
+}

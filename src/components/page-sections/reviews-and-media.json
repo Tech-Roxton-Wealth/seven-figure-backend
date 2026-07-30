@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_page_sections_reviews_and_medias",
+  "info": {
+    "displayName": "ReviewsAndMedia"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "description": "HTML id for in-page anchor links (without #). Example: reviews-media"
+    },
+    "reviewsLabel": {
+      "type": "string"
+    },
+    "reviewsHeading": {
+      "type": "text"
+    },
+    "reviewsDescription": {
+      "type": "blocks"
+    },
+    "reviewsButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "featuredLabel": {
+      "type": "string"
+    },
+    "mediaHeading": {
+      "type": "string"
+    },
+    "mediaLogos": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

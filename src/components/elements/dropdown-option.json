@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_dropdown_options",
+  "info": {
+    "displayName": "DropdownOption"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

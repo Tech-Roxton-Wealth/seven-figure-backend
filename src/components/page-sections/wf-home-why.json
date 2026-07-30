@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_sections_wf_home_whies",
+  "info": {
+    "displayName": "WF Home Why"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "why"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "ctaUrl": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.wf-why-row",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

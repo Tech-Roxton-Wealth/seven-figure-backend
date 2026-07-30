@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_page_sections_philosophy_behaviour_models",
+  "info": {
+    "displayName": "Philosophy Behaviour Model"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "centreWatermarkText": {
+      "type": "string"
+    },
+    "centreEyebrow": {
+      "type": "string"
+    },
+    "centreHeading": {
+      "type": "string"
+    },
+    "centreParagraph": {
+      "type": "text"
+    },
+    "leftNodes": {
+      "type": "component",
+      "component": "ui.philosophy-model-node",
+      "repeatable": true,
+      "max": 2
+    },
+    "rightNodes": {
+      "type": "component",
+      "component": "ui.philosophy-model-node",
+      "repeatable": true,
+      "max": 2
+    }
+  },
+  "config": {}
+}

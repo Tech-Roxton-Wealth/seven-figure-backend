@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "badgeText": {
+      "type": "string"
+    },
+    "allServicesPage": {
+      "type": "component",
+      "component": "ui.all-services-page",
+      "repeatable": false
+    },
+    "service_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::service-category.service-category",
+      "inversedBy": "services"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.service-page-hero",
+        "page-sections.guide-band",
+        "page-sections.glance-strip",
+        "page-sections.service-overview",
+        "page-sections.service-depth",
+        "page-sections.information-section",
+        "page-sections.considerations-section",
+        "page-sections.scenarios-section",
+        "page-sections.next-steps-section",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

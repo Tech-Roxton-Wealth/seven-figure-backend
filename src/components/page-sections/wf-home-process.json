@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_page_sections_wf_home_processes",
+  "info": {
+    "displayName": "WF Home Process"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "process"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "ctaUrl": {
+      "type": "string"
+    },
+    "ctaVariant": {
+      "type": "enumeration",
+      "enum": ["primary", "outline", "outline-light"],
+      "default": "primary"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "sliderCaption": {
+      "type": "string"
+    },
+    "stages": {
+      "type": "component",
+      "component": "ui.wf-process-stage",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

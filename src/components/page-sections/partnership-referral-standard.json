@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_sections_partnership_referral_standards",
+  "info": {
+    "displayName": "PartnershipReferralStandard"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.referral-route-row",
+      "repeatable": true,
+      "max": 2
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

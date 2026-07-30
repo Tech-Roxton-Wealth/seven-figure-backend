@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_ui_philosophy_guide_ctas",
+  "info": {
+    "displayName": "PhilosophyGuideCta"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string"
+    },
+    "guide": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::guide.guide"
+    },
+    "downloadFile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

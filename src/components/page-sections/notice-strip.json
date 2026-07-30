@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_sections_notice_strips",
+  "info": {
+    "displayName": "Notice Strip"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

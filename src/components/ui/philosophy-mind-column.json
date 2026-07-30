@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_philosophy_mind_columns",
+  "info": {
+    "displayName": "PhilosophyMindColumn"
+  },
+  "options": {},
+  "attributes": {
+    "kickerMark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "listItems": {
+      "type": "component",
+      "component": "ui.philosophy-text-line",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

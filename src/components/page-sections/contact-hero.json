@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_page_sections_contact_heroes",
+  "info": {
+    "displayName": "Contact Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "visualImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "visualKicker": {
+      "type": "string"
+    },
+    "visualHeading": {
+      "type": "string"
+    },
+    "visualDescription": {
+      "type": "text"
+    },
+    "watermark": {
+      "type": "string"
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

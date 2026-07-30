@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_sections_wf_home_newsletters",
+  "info": {
+    "displayName": "WF Home Newsletter"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "newsletter"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "submitButtonLabel": {
+      "type": "string",
+      "default": "Subscribe"
+    },
+    "consentText": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

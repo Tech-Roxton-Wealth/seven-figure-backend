@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "guides_pages",
+  "info": {
+    "singularName": "guides-page",
+    "pluralName": "guides-pages",
+    "displayName": "Guides Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "featuredMainGuide": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::guide.guide"
+    },
+    "featuredSideGuides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide.guide"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.hub-search-bar",
+        "page-sections.guides-featured-block",
+        "page-sections.guides-list-header",
+        "page-sections.request-guide-form",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

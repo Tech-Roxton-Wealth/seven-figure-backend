@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_client_route_challenges",
+  "info": {
+    "displayName": "ClientRouteChallenges"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.challenge-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

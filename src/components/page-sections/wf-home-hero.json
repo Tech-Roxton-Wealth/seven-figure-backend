@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_page_sections_wf_home_heroes",
+  "info": {
+    "displayName": "WF Home Hero"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "description": "HTML id for in-page anchor links (without #). Example: hero"
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "proofChips": {
+      "type": "component",
+      "component": "ui.wf-proof-chip",
+      "repeatable": true
+    },
+    "mediaLabel": {
+      "type": "string"
+    },
+    "mediaCount": {
+      "type": "string"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["videos", "files"]
+    },
+    "mediaCardLabel": {
+      "type": "string"
+    },
+    "mediaCardTitle": {
+      "type": "string"
+    },
+    "panelParagraphs": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

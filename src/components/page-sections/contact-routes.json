@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_contact_routes",
+  "info": {
+    "displayName": "Contact Routes"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "routeCards": {
+      "type": "component",
+      "component": "ui.contact-route-card",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

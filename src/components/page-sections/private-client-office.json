@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_private_client_offices",
+  "info": {
+    "displayName": "PrivateClientOffice"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.office-row",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

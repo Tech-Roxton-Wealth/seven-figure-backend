@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_page_sections_about_hub_independents",
+  "info": {
+    "displayName": "About Hub Independent"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "mapWatermarkText": {
+      "type": "string"
+    },
+    "mapNodes": {
+      "type": "component",
+      "component": "ui.about-hub-map-node",
+      "repeatable": true,
+      "max": 3
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.about-hub-ind-row",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_item_lists",
+  "info": {
+    "displayName": "Item List"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "secondaryIntro": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.list-row",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

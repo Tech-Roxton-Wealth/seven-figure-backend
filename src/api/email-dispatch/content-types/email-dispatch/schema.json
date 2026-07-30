@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_dispatches",
+  "info": {
+    "singularName": "email-dispatch",
+    "pluralName": "email-dispatches",
+    "displayName": "Email Dispatch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "insightDocumentId": {
+      "type": "string"
+    }
+  }
+}

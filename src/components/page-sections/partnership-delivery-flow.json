@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_sections_partnership_delivery_flows",
+  "info": {
+    "displayName": "PartnershipDeliveryFlow"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.delivery-step",
+      "repeatable": true,
+      "min": 1
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

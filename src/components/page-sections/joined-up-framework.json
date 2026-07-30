@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_joined_up_frameworks",
+  "info": {
+    "displayName": "Joined Up Framework"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.joined-up-framework-card",
+      "repeatable": true,
+      "max": 6
+    }
+  },
+  "config": {}
+}

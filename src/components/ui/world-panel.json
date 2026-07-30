@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_ui_world_panels",
+  "info": {
+    "displayName": "WorldPanel"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "listItems": {
+      "type": "component",
+      "component": "shared.list-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

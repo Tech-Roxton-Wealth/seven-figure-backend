@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_sections_wf_home_deal_lenses",
+  "info": {
+    "displayName": "WF Home Deal Lens"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "component": "ui.wf-lens-point",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

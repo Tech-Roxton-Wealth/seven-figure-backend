@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_sections_philosophy_manifestos",
+  "info": {
+    "displayName": "Philosophy Manifesto"
+  },
+  "options": {},
+  "attributes": {
+    "asideSectionLabel": {
+      "type": "string"
+    },
+    "asideHeading": {
+      "type": "string"
+    },
+    "asideParagraph": {
+      "type": "text"
+    },
+    "cardWatermarkText": {
+      "type": "string"
+    },
+    "cardParagraphs": {
+      "type": "component",
+      "component": "ui.philosophy-text-line",
+      "repeatable": true
+    },
+    "quoteText": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

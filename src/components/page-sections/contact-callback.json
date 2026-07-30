@@ -1,0 +1,98 @@
+{
+  "collectionName": "components_page_sections_contact_callbacks",
+  "info": {
+    "displayName": "Contact Callback"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "firstNameLabel": {
+      "type": "string"
+    },
+    "firstNamePlaceholder": {
+      "type": "string"
+    },
+    "lastNameLabel": {
+      "type": "string"
+    },
+    "lastNamePlaceholder": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "phoneLabel": {
+      "type": "string"
+    },
+    "phonePlaceholder": {
+      "type": "string"
+    },
+    "enquiryTypeLabel": {
+      "type": "string"
+    },
+    "enquiryTypeOptions": {
+      "type": "component",
+      "component": "ui.form-option",
+      "repeatable": true
+    },
+    "preferredContactLabel": {
+      "type": "string"
+    },
+    "preferredContactOptions": {
+      "type": "component",
+      "component": "ui.form-option",
+      "repeatable": true
+    },
+    "messageLabel": {
+      "type": "string"
+    },
+    "messagePlaceholder": {
+      "type": "string"
+    },
+    "submitButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "formNote": {
+      "type": "text"
+    },
+    "successMessage": {
+      "type": "text"
+    },
+    "newsletterConsent": {
+      "type": "component",
+      "component": "ui.newsletter-consent",
+      "repeatable": false
+    },
+    "nextPanelLabel": {
+      "type": "string"
+    },
+    "nextPanelHeading": {
+      "type": "string"
+    },
+    "nextPanelParagraph": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.step-item",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

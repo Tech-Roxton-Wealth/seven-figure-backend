@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_sections_client_route_persona_strips",
+  "info": {
+    "displayName": "ClientRoutePersonaStrip"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "component": "ui.glance-item",
+      "repeatable": true,
+      "min": 1,
+      "max": 4
+    }
+  },
+  "config": {}
+}

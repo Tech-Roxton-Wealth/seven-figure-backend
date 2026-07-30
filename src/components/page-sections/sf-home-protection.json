@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_sections_sf_home_protections",
+  "info": {
+    "displayName": "SF Home Protection"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "protection",
+      "description": "HTML id for in-page anchor links (without #)."
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "imageAlt": {
+      "type": "string",
+      "description": "Fallback alt/aria-label when media alternativeText is empty."
+    },
+    "eyebrow": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "body": {
+      "type": "text",
+      "description": "Multi-paragraph body. Use blank newlines between paragraphs."
+    },
+    "cta": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

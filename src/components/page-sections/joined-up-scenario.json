@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_sections_joined_up_scenarios",
+  "info": {
+    "displayName": "Joined Up Scenario"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.text-line",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.joined-up-scenario-step",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_page_sections_why_chooseuses",
+  "info": {
+    "displayName": "WhyChooseUs"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "description": "HTML id for in-page anchor links (without #). Example: why"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "blocks"
+    },
+    "points": {
+      "type": "component",
+      "component": "shared.list-item",
+      "repeatable": true
+    },
+    "videoThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

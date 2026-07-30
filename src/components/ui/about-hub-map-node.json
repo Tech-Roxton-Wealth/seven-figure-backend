@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_about_hub_map_nodes",
+  "info": {
+    "displayName": "AboutHubMapNode"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

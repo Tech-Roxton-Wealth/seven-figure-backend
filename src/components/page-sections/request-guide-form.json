@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_sections_request_guide_forms",
+  "info": {
+    "displayName": "RequestGuideForm"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "anchorId": {
+      "type": "string"
+    },
+    "curatedCategories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide-category.guide-category"
+    },
+    "customTopics": {
+      "type": "component",
+      "component": "elements.dropdown-option",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

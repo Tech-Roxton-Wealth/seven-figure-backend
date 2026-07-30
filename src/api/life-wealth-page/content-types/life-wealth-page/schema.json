@@ -1,0 +1,121 @@
+{
+  "kind": "collectionType",
+  "collectionName": "life_wealth_pages",
+  "info": {
+    "singularName": "life-wealth-page",
+    "pluralName": "life-wealth-pages",
+    "displayName": "Life Wealth Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "life_wealth_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::life-wealth-category.life-wealth-category",
+      "inversedBy": "life_wealth_pages"
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "layoutType": {
+      "type": "enumeration",
+      "default": "life_stage",
+      "enum": [
+        "hub",
+        "life_stage",
+        "life_event"
+      ]
+    },
+    "hubSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "hub"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.life-wealth-age-map",
+        "page-sections.life-stage-strip",
+        "page-sections.life-wealth-financial-age",
+        "page-sections.life-wealth-hub-events",
+        "page-sections.client-route-guides",
+        "page-sections.simple-overview",
+        "page-sections.final-cta"
+      ]
+    },
+    "stageSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "life_stage"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.glance-strip",
+        "page-sections.guide-band",
+        "page-sections.client-route-overview",
+        "page-sections.service-depth",
+        "page-sections.life-wealth-planning-needs",
+        "page-sections.next-steps-section",
+        "page-sections.simple-overview",
+        "page-sections.final-cta"
+      ]
+    },
+    "eventSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "life_event"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.glance-strip",
+        "page-sections.client-route-overview",
+        "page-sections.life-wealth-event-stack",
+        "page-sections.considerations-section",
+        "page-sections.client-route-image-break",
+        "page-sections.client-route-guides",
+        "page-sections.simple-overview",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_sections_disclaimer_strips",
+  "info": {
+    "displayName": "Disclaimer Strip"
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

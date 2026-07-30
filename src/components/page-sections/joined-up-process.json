@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_joined_up_processes",
+  "info": {
+    "displayName": "Joined Up Process"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.joined-up-process-step",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

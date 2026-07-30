@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_page_sections_client_login_heroes",
+  "info": {
+    "displayName": "Client Login Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "statusBadge": {
+      "type": "string"
+    },
+    "panelHeading": {
+      "type": "string"
+    },
+    "panelDescription": {
+      "type": "text"
+    },
+    "panelListItems": {
+      "type": "component",
+      "component": "ui.portal-list-item",
+      "repeatable": true
+    },
+    "panelWatermark": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

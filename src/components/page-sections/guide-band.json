@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_sections_guide_bands",
+  "info": {
+    "displayName": "GuideBand"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "relatedGuide": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::guide.guide"
+    }
+  },
+  "config": {}
+}

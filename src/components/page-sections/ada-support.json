@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_ada_supports",
+  "info": {
+    "displayName": "Ada Support"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.ada-support-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

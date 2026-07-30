@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_sections_homepage_anchor_bars",
+  "info": {
+    "displayName": "Homepage Anchor Bar"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "component": "ui.anchor-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

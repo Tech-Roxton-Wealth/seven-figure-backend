@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_philosophy_frameworks",
+  "info": {
+    "displayName": "Philosophy Framework"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.philosophy-framework-card",
+      "repeatable": true,
+      "max": 6
+    }
+  },
+  "config": {}
+}

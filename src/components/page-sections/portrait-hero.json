@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_page_sections_portrait_heroes",
+  "info": {
+    "displayName": "Portrait Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "secondaryParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "portraitImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "overlayKicker": {
+      "type": "string"
+    },
+    "overlayHeading": {
+      "type": "string"
+    },
+    "overlayParagraph": {
+      "type": "text"
+    },
+    "watermark": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_page_sections_wf_home_authorities",
+  "info": {
+    "displayName": "WF Home Authority"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "roxton"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "storyLabel": {
+      "type": "string"
+    },
+    "storyHeading": {
+      "type": "string"
+    },
+    "storySecondaryParagraphs": {
+      "type": "text"
+    },
+    "awards": {
+      "type": "component",
+      "component": "ui.wf-award-card",
+      "repeatable": true
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

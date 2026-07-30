@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_sections_process_steps_sections",
+  "info": {
+    "displayName": "Process Steps"
+  },
+  "options": {},
+  "attributes": {
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "journey",
+        "flow"
+      ],
+      "default": "journey",
+      "required": true
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.process-step",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

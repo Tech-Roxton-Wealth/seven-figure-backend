@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partnership_categories",
+  "info": {
+    "singularName": "partnership-category",
+    "pluralName": "partnership-categories",
+    "displayName": "Partnership Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "partnership_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partnership-page.partnership-page",
+      "mappedBy": "partnership_category"
+    }
+  }
+}

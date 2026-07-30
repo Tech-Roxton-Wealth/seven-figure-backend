@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_sections_joined_up_guides",
+  "info": {
+    "displayName": "Joined Up Guide"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "panelImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "panelImageAlt": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "component": "ui.joined-up-guide-cta",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

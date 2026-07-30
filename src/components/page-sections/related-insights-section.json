@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_related_insights_sections",
+  "info": {
+    "displayName": "RelatedInsightsSection"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "insights": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::insight.insight"
+    },
+    "guides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide.guide"
+    }
+  },
+  "config": {}
+}

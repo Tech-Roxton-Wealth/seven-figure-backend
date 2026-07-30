@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_wf_lens_points",
+  "info": {
+    "displayName": "WF Lens Point"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

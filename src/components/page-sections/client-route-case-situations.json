@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_client_route_case_situations",
+  "info": {
+    "displayName": "ClientRouteCaseSituations"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "situations": {
+      "type": "component",
+      "component": "ui.scenario-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

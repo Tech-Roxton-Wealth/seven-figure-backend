@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_sections_partnership_programme_showcases",
+  "info": {
+    "displayName": "PartnershipProgrammeShowcase"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "anchorId": {
+      "type": "string"
+    },
+    "programmes": {
+      "type": "component",
+      "component": "ui.programme-row",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

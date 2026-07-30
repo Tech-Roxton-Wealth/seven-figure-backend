@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ui_social_cards",
+  "info": {
+    "displayName": "SocialCard"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "watermark": {
+      "type": "string"
+    },
+    "ctaText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

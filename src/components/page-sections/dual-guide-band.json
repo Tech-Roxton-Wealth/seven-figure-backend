@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_sections_dual_guide_bands",
+  "info": {
+    "displayName": "DualGuideBand"
+  },
+  "options": {},
+  "attributes": {
+    "tiles": {
+      "type": "component",
+      "component": "ui.guide-tile",
+      "repeatable": true,
+      "min": 1,
+      "max": 2
+    }
+  },
+  "config": {}
+}

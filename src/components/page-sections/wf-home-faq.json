@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_sections_wf_home_faqs",
+  "info": {
+    "displayName": "WF Home FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "faqs"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "viewAllLabel": {
+      "type": "string"
+    },
+    "viewAllUrl": {
+      "type": "string"
+    },
+    "viewAllVariant": {
+      "type": "enumeration",
+      "enum": ["primary", "outline", "outline-light"],
+      "default": "primary"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.wf-faq-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

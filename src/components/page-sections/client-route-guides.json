@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_client_route_guides",
+  "info": {
+    "displayName": "ClientRouteGuides"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "guides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide.guide"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

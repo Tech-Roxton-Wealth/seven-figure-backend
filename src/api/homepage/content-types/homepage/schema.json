@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.sf-home-hero",
+        "page-sections.sf-home-credentials",
+        "page-sections.sf-home-routes",
+        "page-sections.sf-home-protection",
+        "page-sections.sf-home-audiences",
+        "page-sections.sf-home-approach",
+        "page-sections.sf-home-contact"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  },
+  "pluginOptions": {}
+}

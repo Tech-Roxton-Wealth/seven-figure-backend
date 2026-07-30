@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_sections_alternating_narratives",
+  "info": {
+    "displayName": "Alternating Narrative"
+  },
+  "options": {},
+  "attributes": {
+    "rows": {
+      "type": "component",
+      "component": "ui.narrative-row",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

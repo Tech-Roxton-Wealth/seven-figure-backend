@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_numbered_list_items",
+  "info": {
+    "displayName": "Numbered List Item"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "itemMark": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

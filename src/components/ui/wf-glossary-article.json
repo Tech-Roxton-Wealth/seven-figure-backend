@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_wf_glossary_articles",
+  "info": {
+    "displayName": "WF Glossary Article"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

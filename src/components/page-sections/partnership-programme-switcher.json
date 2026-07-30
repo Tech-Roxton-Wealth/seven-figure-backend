@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_partnership_programme_switchers",
+  "info": {
+    "displayName": "PartnershipProgrammeSwitcher"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "links": {
+      "type": "component",
+      "component": "ui.switcher-link",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

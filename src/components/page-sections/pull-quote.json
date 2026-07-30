@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_page_sections_pull_quotes",
+  "info": {
+    "displayName": "Pull Quote"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "panelLead": {
+      "type": "text"
+    },
+    "openingParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "quoteText": {
+      "type": "text"
+    },
+    "quoteAttribution": {
+      "type": "string"
+    },
+    "closingParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "panelWatermark": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

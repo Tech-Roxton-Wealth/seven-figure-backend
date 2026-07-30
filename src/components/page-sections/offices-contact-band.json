@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_sections_offices_contact_bands",
+  "info": {
+    "displayName": "Offices Contact Band"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "globalDetails": {
+      "type": "component",
+      "component": "ui.global-detail-selector",
+      "repeatable": true
+    },
+    "customDetails": {
+      "type": "component",
+      "component": "ui.contact-detail-row",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

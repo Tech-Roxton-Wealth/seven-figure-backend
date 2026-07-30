@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_page_sections_private_client_contacts",
+  "info": {
+    "displayName": "PrivateClientContact"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "detailLines": {
+      "type": "component",
+      "component": "ui.info-line",
+      "repeatable": true
+    },
+    "formHeading": {
+      "type": "string"
+    },
+    "nameLabel": {
+      "type": "string"
+    },
+    "namePlaceholder": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "phoneLabel": {
+      "type": "string"
+    },
+    "phonePlaceholder": {
+      "type": "string"
+    },
+    "dropdownLabel": {
+      "type": "string"
+    },
+    "dropdownPlaceholder": {
+      "type": "string"
+    },
+    "adviceAreaOptions": {
+      "type": "component",
+      "component": "ui.form-option",
+      "repeatable": true
+    },
+    "messageLabel": {
+      "type": "string"
+    },
+    "messagePlaceholder": {
+      "type": "string"
+    },
+    "submitButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "newsletterConsent": {
+      "type": "component",
+      "component": "ui.newsletter-consent",
+      "repeatable": false
+    },
+    "formNote": {
+      "type": "text"
+    },
+    "successMessage": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

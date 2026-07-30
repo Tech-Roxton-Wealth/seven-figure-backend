@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_brands_pages",
+  "info": {
+    "singularName": "our-brands-page",
+    "pluralName": "our-brands-pages",
+    "displayName": "Our Brands Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "about_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::about-category.about-category"
+    },
+    "navLabel": {
+      "type": "string"
+    },
+    "navDescription": {
+      "type": "string"
+    },
+    "navOrder": {
+      "type": "integer",
+      "default": 16
+    },
+    "showInNav": {
+      "type": "boolean",
+      "default": true
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.brands-hero",
+        "page-sections.brands-portfolio",
+        "page-sections.brands-standard",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

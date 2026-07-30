@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_philosophy_scenario_steps",
+  "info": {
+    "displayName": "PhilosophyScenarioStep"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

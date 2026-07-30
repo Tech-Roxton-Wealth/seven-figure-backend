@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_sections_partnership_ma_mid_sections",
+  "info": {
+    "displayName": "PartnershipMaMidSection"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.why-box",
+      "repeatable": true,
+      "min": 1,
+      "max": 6
+    }
+  },
+  "config": {}
+}

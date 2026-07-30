@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_ui_form_options",
+  "info": {
+    "displayName": "FormOption"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

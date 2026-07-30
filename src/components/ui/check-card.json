@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_check_cards",
+  "info": {
+    "displayName": "CheckCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

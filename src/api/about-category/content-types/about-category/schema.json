@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_categories",
+  "info": {
+    "singularName": "about-category",
+    "pluralName": "about-categories",
+    "displayName": "About Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "about_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::about-page.about-page",
+      "mappedBy": "about_category"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_page_sections_client_route_heroes",
+  "info": {
+    "displayName": "ClientRouteHero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "bodyParagraph": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "captionLabel": {
+      "type": "string"
+    },
+    "captionHeading": {
+      "type": "string"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "credentials": {
+      "type": "component",
+      "component": "ui.hero-credential",
+      "repeatable": true,
+      "max": 3
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_page_sections_about_hub_heroes",
+  "info": {
+    "displayName": "About Hub Hero"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImageAlt": {
+      "type": "string"
+    },
+    "stampText": {
+      "type": "string"
+    },
+    "watermarkText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_philosophy_hero_map_items",
+  "info": {
+    "displayName": "PhilosophyHeroMapItem"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_pages",
+  "info": {
+    "singularName": "privacy-page",
+    "pluralName": "privacy-pages",
+    "displayName": "Privacy Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "sectionLabel": {
+      "type": "string",
+      "default": "Legal information"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "secondaryParagraph": {
+      "type": "text"
+    },
+    "lastUpdated": {
+      "type": "date"
+    },
+    "body": {
+      "type": "blocks"
+    },
+    "contactPanel": {
+      "type": "component",
+      "component": "page-sections.legal-contact-panel",
+      "repeatable": false
+    }
+  },
+  "pluginOptions": {}
+}

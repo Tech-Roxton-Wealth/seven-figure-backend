@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_ui_life_stage_strip_items",
+  "info": {
+    "displayName": "LifeStageStripItem"
+  },
+  "options": {},
+  "attributes": {
+    "ageValue": {
+      "type": "string"
+    },
+    "stageLabel": {
+      "type": "string"
+    },
+    "bodyCopy": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "component",
+      "component": "ui.tag",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

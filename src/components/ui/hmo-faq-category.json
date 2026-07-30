@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_hmo_faq_categories",
+  "info": {
+    "displayName": "HMO FAQ Category"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.faq-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

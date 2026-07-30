@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_wf_glossary_directories",
+  "info": {
+    "displayName": "WF Glossary Directory"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "glossary"
+    },
+    "emptyHeading": {
+      "type": "string"
+    },
+    "emptySecondaryParagraphs": {
+      "type": "text"
+    },
+    "glossary_letters": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::glossary-letter.glossary-letter"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_joined_up_outcome_boxes",
+  "info": {
+    "displayName": "JoinedUpOutcomeBox"
+  },
+  "options": {},
+  "attributes": {
+    "dataMark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

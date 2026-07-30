@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_diff_columns",
+  "info": {
+    "displayName": "DiffColumn"
+  },
+  "options": {},
+  "attributes": {
+    "mark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "points": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

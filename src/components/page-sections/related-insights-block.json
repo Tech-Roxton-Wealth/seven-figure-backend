@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_related_insights_blocks",
+  "info": {
+    "displayName": "Related Insights Block",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "insights": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::insight.insight"
+    }
+  }
+}

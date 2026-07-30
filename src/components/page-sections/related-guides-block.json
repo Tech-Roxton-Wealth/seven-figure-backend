@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_related_guides_blocks",
+  "info": {
+    "displayName": "Related Guides Block",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "guides": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::guide.guide"
+    }
+  }
+}

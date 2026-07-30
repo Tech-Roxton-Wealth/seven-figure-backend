@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "Global Setting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "facebookUrl": {
+      "type": "string"
+    },
+    "tiktokUrl": {
+      "type": "string"
+    },
+    "linkedInUrl": {
+      "type": "string"
+    },
+    "instagramUrl": {
+      "type": "string"
+    },
+    "youtubeUrl": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "officeAddress": {
+      "type": "text"
+    },
+    "openingHours": {
+      "type": "text"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.site-footer"
+    },
+    "preFooterHeadline": {
+      "type": "text"
+    },
+    "preFooterLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.action-link"
+    }
+  }
+}

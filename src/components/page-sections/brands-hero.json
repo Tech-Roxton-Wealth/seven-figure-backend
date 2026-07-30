@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_sections_brands_heroes",
+  "info": {
+    "displayName": "Brands Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

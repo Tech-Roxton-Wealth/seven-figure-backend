@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_ui_offices_office_cards",
+  "info": {
+    "displayName": "Offices Office Card"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "alternateLayout": {
+      "type": "boolean",
+      "default": false
+    },
+    "indexLabel": {
+      "type": "string"
+    },
+    "mediaImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mediaImageAlt": {
+      "type": "string"
+    },
+    "cityKicker": {
+      "type": "string"
+    },
+    "cityName": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "detailBoxes": {
+      "type": "component",
+      "component": "ui.offices-detail-box",
+      "repeatable": true
+    },
+    "mapsLinkLabel": {
+      "type": "string"
+    },
+    "mapsLinkUrl": {
+      "type": "string"
+    },
+    "mapsOpenInNewTab": {
+      "type": "boolean",
+      "default": true
+    },
+    "bookButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "appointmentNote": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

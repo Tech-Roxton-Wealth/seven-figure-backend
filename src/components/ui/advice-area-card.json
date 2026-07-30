@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_advice_area_cards",
+  "info": {
+    "displayName": "AdviceAreaCard"
+  },
+  "options": {},
+  "attributes": {
+    "mark": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

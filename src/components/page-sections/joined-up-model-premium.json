@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_sections_joined_up_model_premiums",
+  "info": {
+    "displayName": "Joined Up Model Premium"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "coreEyebrow": {
+      "type": "string"
+    },
+    "coreHeading": {
+      "type": "string"
+    },
+    "coreParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.joined-up-model-card",
+      "repeatable": true,
+      "max": 6
+    }
+  },
+  "config": {}
+}

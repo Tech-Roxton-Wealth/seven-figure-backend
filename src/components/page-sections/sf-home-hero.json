@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_page_sections_sf_home_heroes",
+  "info": {
+    "displayName": "SF Home Hero"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "hero",
+      "description": "HTML id for in-page anchor links (without #)."
+    },
+    "eyebrow": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "body": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "captionBold": {
+      "type": "text"
+    },
+    "captionText": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

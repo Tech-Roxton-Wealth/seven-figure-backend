@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_page_sections_about_hub_stories",
+  "info": {
+    "displayName": "About Hub Story"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "imageCaption": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.about-hub-text-line",
+      "repeatable": true
+    },
+    "editorialLines": {
+      "type": "component",
+      "component": "ui.about-hub-editorial-line",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

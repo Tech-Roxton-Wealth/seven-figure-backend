@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_page_sections_guides_sections",
+  "info": {
+    "displayName": "GuidesSection"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "description": "HTML id for in-page anchor links (without #). Example: gds"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "featuredGuide": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::guide.guide"
+    },
+    "featuredDownloadButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "viewAllGuidesButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "listHeading": {
+      "type": "string"
+    },
+    "guides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide.guide"
+    }
+  },
+  "config": {}
+}

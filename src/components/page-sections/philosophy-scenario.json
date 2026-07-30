@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_sections_philosophy_scenarios",
+  "info": {
+    "displayName": "Philosophy Scenario"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.philosophy-text-line",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.philosophy-scenario-step",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

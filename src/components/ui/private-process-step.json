@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ui_private_process_steps",
+  "info": {
+    "displayName": "PrivateProcessStep"
+  },
+  "options": {},
+  "attributes": {
+    "stepMark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "stepWord": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stepImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

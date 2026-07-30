@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_ui_text_lines",
+  "info": {
+    "displayName": "TextLine"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

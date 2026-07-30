@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_sections_wf_glossary_deals",
+  "info": {
+    "displayName": "WF Glossary Deal"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "contact"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

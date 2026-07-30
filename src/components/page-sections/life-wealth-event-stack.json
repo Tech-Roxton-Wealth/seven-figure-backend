@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_life_wealth_event_stacks",
+  "info": {
+    "displayName": "LifeWealthEventStack"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.life-event-row",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

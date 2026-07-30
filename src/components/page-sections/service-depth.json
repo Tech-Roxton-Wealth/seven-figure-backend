@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_sections_service_depths",
+  "info": {
+    "displayName": "ServiceDepth"
+  },
+  "options": {},
+  "attributes": {
+    "rows": {
+      "type": "component",
+      "component": "ui.depth-row",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

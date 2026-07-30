@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_logo_walls",
+  "info": {
+    "displayName": "Logo Wall"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "tiles": {
+      "type": "component",
+      "component": "ui.logo-tile",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

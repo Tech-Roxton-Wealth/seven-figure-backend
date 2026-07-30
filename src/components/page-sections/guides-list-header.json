@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_guides_list_headers",
+  "info": {
+    "displayName": "GuidesListHeader"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "anchorId": {
+      "type": "string"
+    },
+    "listedGuides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide.guide"
+    }
+  },
+  "config": {}
+}

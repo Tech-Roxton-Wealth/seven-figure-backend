@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_wf_proof_chips",
+  "info": {
+    "displayName": "WF Proof Chip"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

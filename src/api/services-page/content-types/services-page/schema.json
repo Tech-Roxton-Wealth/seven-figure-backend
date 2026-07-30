@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "Services Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "featuredServices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.services-hub-hero",
+        "page-sections.guide-band",
+        "page-sections.services-showcase-intro",
+        "page-sections.services-connection",
+        "page-sections.services-client-routes",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

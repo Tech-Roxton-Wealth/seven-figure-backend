@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_ui_joined_up_guide_ctas",
+  "info": {
+    "displayName": "JoinedUpGuideCta"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "guide": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::guide.guide"
+    },
+    "downloadFile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "glossary_pages",
+  "info": {
+    "singularName": "glossary-page",
+    "pluralName": "glossary-pages",
+    "displayName": "Glossary Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.wf-glossary-hero",
+        "page-sections.wf-glossary-directory",
+        "page-sections.wf-glossary-deal"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

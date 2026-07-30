@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_sections_hmo_faq_searches",
+  "info": {
+    "displayName": "HMO FAQ Search"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "searchPlaceholder": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

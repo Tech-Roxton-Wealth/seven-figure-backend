@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_sections_brands_portfolios",
+  "info": {
+    "displayName": "Brands Portfolio"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "portfolioStatusLabel": {
+      "type": "string"
+    },
+    "portfolioStatusText": {
+      "type": "text"
+    },
+    "brandCards": {
+      "type": "component",
+      "component": "ui.brands-brand-card",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_sections_client_route_overviews",
+  "info": {
+    "displayName": "ClientRouteOverview"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "asideParagraph": {
+      "type": "text"
+    },
+    "panelParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "showWatermark": {
+      "type": "boolean",
+      "default": true
+    },
+    "pullQuote": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_site_footers",
+  "info": {
+    "displayName": "Site Footer"
+  },
+  "options": {},
+  "attributes": {
+    "complianceWarnings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-warning"
+    },
+    "regulatoryText": {
+      "type": "richtext"
+    },
+    "privacyLabel": {
+      "type": "string",
+      "default": "Privacy Notice"
+    },
+    "privacyUrl": {
+      "type": "string",
+      "default": "/privacy"
+    }
+  },
+  "config": {}
+}

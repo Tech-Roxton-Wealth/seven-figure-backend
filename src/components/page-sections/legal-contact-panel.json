@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_sections_legal_contact_panels",
+  "info": {
+    "displayName": "Legal Contact Panel"
+  },
+  "options": {},
+  "attributes": {
+    "panelTitle": {
+      "type": "string",
+      "required": true
+    },
+    "panelIntro": {
+      "type": "text"
+    },
+    "contactItems": {
+      "type": "component",
+      "component": "ui.legal-contact-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

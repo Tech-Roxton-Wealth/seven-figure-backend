@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_sections_private_client_scenarios",
+  "info": {
+    "displayName": "PrivateClientScenario"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "visualImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.scenario-flow-step",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

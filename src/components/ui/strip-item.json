@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_strip_items",
+  "info": {
+    "displayName": "StripItem"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

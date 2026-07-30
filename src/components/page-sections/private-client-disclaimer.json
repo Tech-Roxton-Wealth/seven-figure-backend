@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_sections_private_client_disclaimers",
+  "info": {
+    "displayName": "PrivateClientDisclaimer"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

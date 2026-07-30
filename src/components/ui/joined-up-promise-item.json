@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_ui_joined_up_promise_items",
+  "info": {
+    "displayName": "JoinedUpPromiseItem"
+  },
+  "options": {},
+  "attributes": {
+    "itemNumber": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

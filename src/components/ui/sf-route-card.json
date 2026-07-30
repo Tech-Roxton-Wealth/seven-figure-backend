@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_ui_sf_route_cards",
+  "info": {
+    "displayName": "SF Route Card"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

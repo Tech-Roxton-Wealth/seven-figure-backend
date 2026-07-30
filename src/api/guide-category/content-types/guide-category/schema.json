@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guide_categories",
+  "info": {
+    "singularName": "guide-category",
+    "pluralName": "guide-categories",
+    "displayName": "Guide Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "showInFilter": {
+      "type": "boolean",
+      "default": true
+    },
+    "guides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide.guide",
+      "mappedBy": "guideCategory"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_footer_warnings",
+  "info": {
+    "displayName": "Footer Warning"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

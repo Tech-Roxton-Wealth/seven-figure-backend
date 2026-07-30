@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_sections_about_hub_proofs",
+  "info": {
+    "displayName": "About Hub Proof"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.about-hub-proof-card",
+      "repeatable": true,
+      "max": 3
+    }
+  },
+  "config": {}
+}

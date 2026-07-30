@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_sections_private_client_intros",
+  "info": {
+    "displayName": "PrivateClientIntro"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "asideParagraph": {
+      "type": "text"
+    },
+    "panelParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "showWatermark": {
+      "type": "boolean",
+      "default": true
+    },
+    "watermarkText": {
+      "type": "string",
+      "default": "PRIVATE"
+    },
+    "quoteText": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_page_sections_hmo_faq_directories",
+  "info": {
+    "displayName": "HMO FAQ Directory"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "faq-content"
+    },
+    "sidebarLabel": {
+      "type": "string"
+    },
+    "sidebarHeading": {
+      "type": "string"
+    },
+    "sidebarIntro": {
+      "type": "text"
+    },
+    "sideCardLabel": {
+      "type": "string"
+    },
+    "sideCardHeading": {
+      "type": "string"
+    },
+    "sideCardButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "categories": {
+      "type": "component",
+      "component": "ui.hmo-faq-category",
+      "repeatable": true
+    },
+    "emptyHeading": {
+      "type": "string"
+    },
+    "emptySecondaryParagraphs": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

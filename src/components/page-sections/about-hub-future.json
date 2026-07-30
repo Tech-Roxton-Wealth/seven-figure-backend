@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_page_sections_about_hub_futures",
+  "info": {
+    "displayName": "About Hub Future"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.about-hub-text-line",
+      "repeatable": true
+    },
+    "steps": {
+      "type": "component",
+      "component": "ui.about-hub-future-step",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "noteQuote": {
+      "type": "text"
+    },
+    "noteEyebrow": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

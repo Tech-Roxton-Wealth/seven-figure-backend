@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_sections_hmo_faq_heroes",
+  "info": {
+    "displayName": "HMO FAQ Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "indexLabel": {
+      "type": "string"
+    },
+    "indexHeading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

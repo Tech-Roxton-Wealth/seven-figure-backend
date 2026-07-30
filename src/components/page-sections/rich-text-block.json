@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_page_sections_rich_text_blocks",
+  "info": {
+    "displayName": "Rich Text Block"
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "centered",
+        "manifesto",
+        "statement",
+        "pale"
+      ],
+      "default": "centered",
+      "required": true
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "quoteText": {
+      "type": "text"
+    },
+    "panelWatermark": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

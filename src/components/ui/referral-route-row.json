@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_ui_referral_route_rows",
+  "info": {
+    "displayName": "ReferralRouteRow"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "checkItems": {
+      "type": "component",
+      "component": "shared.list-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

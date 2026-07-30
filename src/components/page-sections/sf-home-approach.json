@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_sf_home_approaches",
+  "info": {
+    "displayName": "SF Home Approach"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "approach",
+      "description": "HTML id for in-page anchor links (without #)."
+    },
+    "eyebrow": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.sf-approach-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

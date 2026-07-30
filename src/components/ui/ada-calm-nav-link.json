@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_ada_calm_nav_links",
+  "info": {
+    "displayName": "AdaCalmNavLink"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "anchorId": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

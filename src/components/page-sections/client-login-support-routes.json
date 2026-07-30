@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_sections_client_login_support_routes",
+  "info": {
+    "displayName": "Client Login Support Routes"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "routeCards": {
+      "type": "component",
+      "component": "ui.portal-route-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

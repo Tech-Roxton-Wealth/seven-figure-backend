@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_page_sections_media_and_awards",
+  "info": {
+    "displayName": "MediaAndAwards"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "description": "HTML id for in-page anchor links (without #). Example: maw"
+    },
+    "mediaLabel": {
+      "type": "string"
+    },
+    "authorityHeading": {
+      "type": "string"
+    },
+    "authorityMetrics": {
+      "type": "blocks"
+    },
+    "mediaPoints": {
+      "type": "component",
+      "component": "shared.list-item",
+      "repeatable": true
+    },
+    "awardsLabel": {
+      "type": "string"
+    },
+    "recognitionHeading": {
+      "type": "string"
+    },
+    "awardsDescription": {
+      "type": "blocks"
+    },
+    "awardPoints": {
+      "type": "component",
+      "component": "shared.award-item",
+      "repeatable": true
+    },
+    "mediaCentreLink": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": false
+    },
+    "awardsRecognitionLink": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_page_sections_newsletter_contact_sections",
+  "info": {
+    "displayName": "NewsletterContactSection"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "description": "HTML id for in-page anchor links (without #). Example: nc"
+    },
+    "newsletterLabel": {
+      "type": "string"
+    },
+    "newsletterHeading": {
+      "type": "string"
+    },
+    "newsletterDescription": {
+      "type": "text"
+    },
+    "contactLabel": {
+      "type": "string"
+    },
+    "contactHeading": {
+      "type": "string"
+    },
+    "contactDescription": {
+      "type": "text"
+    },
+    "displayedContacts": {
+      "type": "component",
+      "component": "shared.contact-method",
+      "repeatable": true
+    },
+    "newsletterConsent": {
+      "type": "component",
+      "component": "ui.newsletter-consent",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

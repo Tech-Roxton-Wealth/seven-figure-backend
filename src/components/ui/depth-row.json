@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_ui_depth_rows",
+  "info": {
+    "displayName": "DepthRow"
+  },
+  "options": {},
+  "attributes": {
+    "reverseLayout": {
+      "type": "boolean",
+      "default": false
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "visualImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "visualImageAlt": {
+      "type": "string"
+    },
+    "visualLine": {
+      "type": "string"
+    },
+    "actionLink": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

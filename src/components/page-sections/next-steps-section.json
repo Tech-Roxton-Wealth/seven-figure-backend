@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_next_steps_sections",
+  "info": {
+    "displayName": "NextStepsSection"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "links": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

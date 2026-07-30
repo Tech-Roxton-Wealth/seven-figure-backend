@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_sections_wf_glossary_heroes",
+  "info": {
+    "displayName": "WF Glossary Hero"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

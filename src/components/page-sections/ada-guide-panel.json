@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_sections_ada_guide_panels",
+  "info": {
+    "displayName": "Ada Guide Panel"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "panelImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "panelImageAlt": {
+      "type": "string"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "component": "ui.ada-guide-cta",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

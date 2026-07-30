@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_sections_contact_offices",
+  "info": {
+    "displayName": "Contact Offices"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "globalDetails": {
+      "type": "component",
+      "component": "ui.global-detail-selector",
+      "repeatable": true
+    },
+    "customDetails": {
+      "type": "component",
+      "component": "ui.contact-detail-row",
+      "repeatable": true
+    },
+    "officeCards": {
+      "type": "component",
+      "component": "ui.office-flip-card",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

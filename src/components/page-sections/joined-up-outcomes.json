@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_joined_up_outcomes",
+  "info": {
+    "displayName": "Joined Up Outcomes"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.joined-up-outcome-box",
+      "repeatable": true,
+      "max": 4
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_sections_wf_home_routes",
+  "info": {
+    "displayName": "WF Home Routes"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "routes"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.wf-route-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_page_sections_split_heroes",
+  "info": {
+    "displayName": "Split Hero"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "leadParagraph": {
+      "type": "text"
+    },
+    "secondaryParagraph": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImageAlt": {
+      "type": "string"
+    },
+    "visualKicker": {
+      "type": "string"
+    },
+    "visualHeading": {
+      "type": "string"
+    },
+    "watermark": {
+      "type": "string"
+    },
+    "principleParagraph": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "UpperStrap": {
+      "type": "component",
+      "component": "shared.list-item",
+      "repeatable": true
+    },
+    "LowerStrap": {
+      "type": "component",
+      "component": "shared.list-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

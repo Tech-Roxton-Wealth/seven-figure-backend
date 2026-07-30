@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_sf_form_options",
+  "info": {
+    "displayName": "SF Form Option"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

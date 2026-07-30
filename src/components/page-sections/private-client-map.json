@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_page_sections_private_client_maps",
+  "info": {
+    "displayName": "PrivateClientMap"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "leftNodes": {
+      "type": "component",
+      "component": "ui.map-node",
+      "repeatable": true,
+      "min": 1,
+      "max": 2
+    },
+    "centreLabel": {
+      "type": "string"
+    },
+    "centreHeading": {
+      "type": "string"
+    },
+    "centreDescription": {
+      "type": "text"
+    },
+    "centreWatermark": {
+      "type": "string",
+      "default": "UHNW"
+    },
+    "rightNodes": {
+      "type": "component",
+      "component": "ui.map-node",
+      "repeatable": true,
+      "min": 1,
+      "max": 2
+    }
+  },
+  "config": {}
+}

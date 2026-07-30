@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_sections_private_client_strips",
+  "info": {
+    "displayName": "PrivateClientStrip"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "component": "ui.strip-item",
+      "repeatable": true,
+      "max": 4
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

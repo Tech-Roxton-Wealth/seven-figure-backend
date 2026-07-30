@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_complaint_details",
+  "info": {
+    "displayName": "ComplaintDetail"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

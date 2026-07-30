@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_consideration_items",
+  "info": {
+    "displayName": "ConsiderationItem"
+  },
+  "options": {},
+  "attributes": {
+    "mark": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

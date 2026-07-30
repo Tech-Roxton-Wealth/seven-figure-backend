@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_ui_office_flip_cards",
+  "info": {
+    "displayName": "OfficeFlipCard"
+  },
+  "options": {},
+  "attributes": {
+    "frontCode": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "frontDescription": {
+      "type": "text"
+    },
+    "backCode": {
+      "type": "string"
+    },
+    "backDescription": {
+      "type": "text"
+    },
+    "flipActionLabel": {
+      "type": "string"
+    },
+    "backActionLabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

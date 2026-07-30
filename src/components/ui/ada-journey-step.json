@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_ui_ada_journey_steps",
+  "info": {
+    "displayName": "AdaJourneyStep"
+  },
+  "options": {},
+  "attributes": {
+    "stepNumber": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

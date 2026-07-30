@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_sections_joined_up_promises",
+  "info": {
+    "displayName": "Joined Up Promise"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "component": "ui.joined-up-promise-item",
+      "repeatable": true,
+      "max": 4
+    }
+  },
+  "config": {}
+}

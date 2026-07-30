@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_client_route_advice_areas",
+  "info": {
+    "displayName": "ClientRouteAdviceAreas"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "areas": {
+      "type": "component",
+      "component": "ui.advice-area-card",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

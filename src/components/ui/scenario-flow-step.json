@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_scenario_flow_steps",
+  "info": {
+    "displayName": "ScenarioFlowStep"
+  },
+  "options": {},
+  "attributes": {
+    "stepLabel": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

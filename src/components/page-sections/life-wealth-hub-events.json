@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_life_wealth_hub_events",
+  "info": {
+    "displayName": "LifeWealthHubEvents"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.hub-event-line",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_sections_sf_home_routes",
+  "info": {
+    "displayName": "SF Home Routes"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "mortgages",
+      "description": "HTML id for in-page anchor links (without #)."
+    },
+    "eyebrow": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.sf-route-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

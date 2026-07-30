@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_offices_detail_boxes",
+  "info": {
+    "displayName": "Offices Detail Box"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

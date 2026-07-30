@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_contact_methods",
+  "info": {
+    "displayName": "Contact Method"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "phone",
+        "whatsapp",
+        "linkedin"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

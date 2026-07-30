@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ui_joined_up_lens_rows",
+  "info": {
+    "displayName": "JoinedUpLensRow"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "component": "ui.text-line",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

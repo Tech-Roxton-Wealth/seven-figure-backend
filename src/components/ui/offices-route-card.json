@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_offices_route_cards",
+  "info": {
+    "displayName": "Offices Route Card"
+  },
+  "options": {},
+  "attributes": {
+    "mark": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

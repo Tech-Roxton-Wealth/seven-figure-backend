@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_sections_philosophy_promises",
+  "info": {
+    "displayName": "Philosophy Promise"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "component": "ui.philosophy-promise-item",
+      "repeatable": true,
+      "max": 4
+    }
+  },
+  "config": {}
+}

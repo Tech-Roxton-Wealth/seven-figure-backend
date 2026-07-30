@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "life_wealth_categories",
+  "info": {
+    "singularName": "life-wealth-category",
+    "pluralName": "life-wealth-categories",
+    "displayName": "Life Wealth Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "life_wealth_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::life-wealth-page.life-wealth-page",
+      "mappedBy": "life_wealth_category"
+    }
+  }
+}

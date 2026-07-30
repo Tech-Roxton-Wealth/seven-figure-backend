@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_anchor_links",
+  "info": {
+    "displayName": "AnchorLink"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "anchorId": {
+      "type": "string",
+      "required": true,
+      "description": "For in-page scrolling, enter the section anchor id (e.g. routes or contact-form — no # required). For other pages, use a full path like /login."
+    }
+  },
+  "config": {}
+}

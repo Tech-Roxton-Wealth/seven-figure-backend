@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_joined_up_scenario_steps",
+  "info": {
+    "displayName": "JoinedUpScenarioStep"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

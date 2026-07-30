@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_ui_brands_brand_cards",
+  "info": {
+    "displayName": "Brands Brand Card"
+  },
+  "options": {},
+  "attributes": {
+    "mediaImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mediaImageAlt": {
+      "type": "string"
+    },
+    "markKicker": {
+      "type": "string"
+    },
+    "markName": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "component",
+      "component": "ui.tag",
+      "repeatable": true
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    },
+    "secondaryLinkLabel": {
+      "type": "string"
+    },
+    "secondaryLinkUrl": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

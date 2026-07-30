@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_considerations_sections",
+  "info": {
+    "displayName": "ConsiderationsSection"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.consideration-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

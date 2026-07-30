@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_global_detail_selectors",
+  "info": {
+    "displayName": "Global Detail Selector"
+  },
+  "options": {},
+  "attributes": {
+    "globalVariable": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "phone",
+        "whatsapp",
+        "facebook",
+        "instagram",
+        "office_address",
+        "opening_hours"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

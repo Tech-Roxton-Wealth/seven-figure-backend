@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_data_tables",
+  "info": {
+    "displayName": "Data Table"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "anchorId": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "component",
+      "component": "ui.table-block",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

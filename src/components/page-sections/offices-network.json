@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_sections_offices_networks",
+  "info": {
+    "displayName": "Offices Network"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "officeCards": {
+      "type": "component",
+      "component": "ui.offices-office-card",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

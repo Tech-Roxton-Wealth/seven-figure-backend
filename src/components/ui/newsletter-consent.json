@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_newsletter_consents",
+  "info": {
+    "displayName": "NewsletterConsent"
+  },
+  "options": {},
+  "attributes": {
+    "consentText": {
+      "type": "text",
+      "required": true
+    },
+    "isRequired": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

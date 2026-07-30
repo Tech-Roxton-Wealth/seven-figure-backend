@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_about_hub_anchor_links",
+  "info": {
+    "displayName": "AboutHubAnchorLink"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "anchorId": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

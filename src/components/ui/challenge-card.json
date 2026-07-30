@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_ui_challenge_cards",
+  "info": {
+    "displayName": "ChallengeCard"
+  },
+  "options": {},
+  "attributes": {
+    "mark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "footnote": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

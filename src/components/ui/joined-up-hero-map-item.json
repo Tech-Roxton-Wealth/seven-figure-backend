@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_joined_up_hero_map_items",
+  "info": {
+    "displayName": "JoinedUpHeroMapItem"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

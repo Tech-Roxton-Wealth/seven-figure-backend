@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_philosophy_framework_cards",
+  "info": {
+    "displayName": "PhilosophyFrameworkCard"
+  },
+  "options": {},
+  "attributes": {
+    "kickerMark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "cardNote": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

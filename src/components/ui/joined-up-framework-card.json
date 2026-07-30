@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_joined_up_framework_cards",
+  "info": {
+    "displayName": "JoinedUpFrameworkCard"
+  },
+  "options": {},
+  "attributes": {
+    "dataMark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "cardNote": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_page_sections_sf_home_contacts",
+  "info": {
+    "displayName": "SF Home Contact"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "contact",
+      "description": "HTML id for in-page anchor links (without #)."
+    },
+    "eyebrow": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "body": {
+      "type": "text"
+    },
+    "details": {
+      "type": "component",
+      "component": "ui.sf-contact-detail",
+      "repeatable": true
+    },
+    "nameLabel": {
+      "type": "text"
+    },
+    "namePlaceholder": {
+      "type": "text"
+    },
+    "emailLabel": {
+      "type": "text"
+    },
+    "emailPlaceholder": {
+      "type": "text"
+    },
+    "reasonLabel": {
+      "type": "text"
+    },
+    "reasonOptions": {
+      "type": "component",
+      "component": "ui.sf-form-option",
+      "repeatable": true
+    },
+    "borrowingLabel": {
+      "type": "text"
+    },
+    "borrowingOptions": {
+      "type": "component",
+      "component": "ui.sf-form-option",
+      "repeatable": true
+    },
+    "briefLabel": {
+      "type": "text"
+    },
+    "briefPlaceholder": {
+      "type": "text"
+    },
+    "submitLabel": {
+      "type": "text"
+    },
+    "consentText": {
+      "type": "text",
+      "description": "If set, a required consent checkbox is shown and must be checked before submit."
+    },
+    "formFooterNote": {
+      "type": "text"
+    },
+    "successMessage": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

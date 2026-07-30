@@ -1,0 +1,75 @@
+{
+  "collectionName": "components_page_sections_newsletter_subscribe_bands",
+  "info": {
+    "displayName": "NewsletterSubscribeBand"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "description": "HTML id for in-page anchor links (without #). Example: newsletter-subscribe"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "promises": {
+      "type": "component",
+      "component": "ui.promise-tile",
+      "repeatable": true,
+      "max": 4
+    },
+    "firstNameLabel": {
+      "type": "string"
+    },
+    "firstNamePlaceholder": {
+      "type": "string"
+    },
+    "lastNameLabel": {
+      "type": "string"
+    },
+    "lastNamePlaceholder": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "areasOfInterestHeading": {
+      "type": "string"
+    },
+    "subscribeCategories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::insight-category.insight-category"
+    },
+    "showAllInsightsOption": {
+      "type": "boolean",
+      "default": true
+    },
+    "allInsightsLabel": {
+      "type": "string",
+      "default": "All Insights"
+    },
+    "newsletterConsent": {
+      "type": "component",
+      "component": "ui.newsletter-consent",
+      "repeatable": false,
+      "required": true
+    },
+    "submitButtonLabel": {
+      "type": "string"
+    },
+    "formNote": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

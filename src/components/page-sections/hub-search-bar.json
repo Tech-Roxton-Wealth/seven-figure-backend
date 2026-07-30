@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_sections_hub_search_bars",
+  "info": {
+    "displayName": "HubSearchBar"
+  },
+  "options": {},
+  "attributes": {
+    "toolNote": {
+      "type": "text"
+    },
+    "variant": {
+      "type": "enumeration",
+      "default": "insights",
+      "enum": [
+        "insights",
+        "guides"
+      ]
+    }
+  },
+  "config": {}
+}

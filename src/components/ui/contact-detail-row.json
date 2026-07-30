@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_contact_detail_rows",
+  "info": {
+    "displayName": "Contact Detail Row"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

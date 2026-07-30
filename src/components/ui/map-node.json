@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_map_nodes",
+  "info": {
+    "displayName": "MapNode"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_ui_grid_cards",
+  "info": {
+    "displayName": "Grid Card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "publisherCode": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    },
+    "cardMark": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

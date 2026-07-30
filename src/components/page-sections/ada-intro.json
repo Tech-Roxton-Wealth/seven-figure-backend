@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_page_sections_ada_intros",
+  "info": {
+    "displayName": "Ada Intro"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "panelImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "panelImageAlt": {
+      "type": "string"
+    },
+    "imageCaption": {
+      "type": "text"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "statementText": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

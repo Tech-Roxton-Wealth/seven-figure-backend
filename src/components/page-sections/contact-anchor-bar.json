@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_sections_contact_anchor_bars",
+  "info": {
+    "displayName": "Contact Anchor Bar"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "component": "ui.anchor-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

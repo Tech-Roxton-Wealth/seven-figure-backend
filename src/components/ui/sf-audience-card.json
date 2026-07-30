@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_sf_audience_cards",
+  "info": {
+    "displayName": "SF Audience Card"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text",
+      "description": "Card index/label shown above the title (e.g. 01, 02)."
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.action-link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

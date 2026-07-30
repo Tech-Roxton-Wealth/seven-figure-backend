@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_sections_life_stage_strips",
+  "info": {
+    "displayName": "LifeStageStrip"
+  },
+  "options": {},
+  "attributes": {
+    "stages": {
+      "type": "component",
+      "component": "ui.life-stage-strip-item",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

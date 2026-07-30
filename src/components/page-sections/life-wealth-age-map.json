@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_life_wealth_age_maps",
+  "info": {
+    "displayName": "LifeWealthAgeMap"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.age-route-row",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

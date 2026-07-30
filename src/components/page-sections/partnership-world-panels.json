@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_sections_partnership_world_panels",
+  "info": {
+    "displayName": "PartnershipWorldPanels"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "panels": {
+      "type": "component",
+      "component": "ui.world-panel",
+      "repeatable": true,
+      "min": 1,
+      "max": 2
+    }
+  },
+  "config": {}
+}

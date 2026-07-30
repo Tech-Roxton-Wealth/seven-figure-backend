@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_sections_editorial_splits",
+  "info": {
+    "displayName": "Editorial Split"
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "pale",
+        "default"
+      ],
+      "default": "pale"
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "panelLead": {
+      "type": "text"
+    },
+    "panelParagraphs": {
+      "type": "component",
+      "component": "ui.paragraph",
+      "repeatable": true
+    },
+    "panelWatermark": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

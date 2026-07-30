@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_page_sections_contact_quick_links",
+  "info": {
+    "displayName": "Contact Quick Links"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "quickCards": {
+      "type": "component",
+      "component": "ui.quick-link-card",
+      "repeatable": true
+    },
+    "complaintsSectionLabel": {
+      "type": "string"
+    },
+    "complaintsHeading": {
+      "type": "string"
+    },
+    "complaintsIntro": {
+      "type": "text"
+    },
+    "complaintDetails": {
+      "type": "component",
+      "component": "ui.complaint-detail",
+      "repeatable": true
+    },
+    "anchorId": {
+      "type": "string"
+    },
+    "complaintsAnchorId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

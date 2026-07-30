@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "client_login_pages",
+  "info": {
+    "singularName": "client-login-page",
+    "pluralName": "client-login-pages",
+    "displayName": "Client Login Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "heroSection": {
+      "type": "component",
+      "component": "page-sections.client-login-hero",
+      "repeatable": false
+    },
+    "supportRoutesSection": {
+      "type": "component",
+      "component": "page-sections.client-login-support-routes",
+      "repeatable": false
+    }
+  },
+  "pluginOptions": {}
+}

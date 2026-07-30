@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_sections_wf_home_insights",
+  "info": {
+    "displayName": "WF Home Insights"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "insights"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "secondaryParagraphs": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "ui.wf-insight-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

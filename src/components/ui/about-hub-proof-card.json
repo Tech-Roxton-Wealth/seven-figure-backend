@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_about_hub_proof_cards",
+  "info": {
+    "displayName": "AboutHubProofCard"
+  },
+  "options": {},
+  "attributes": {
+    "kickerMark": {
+      "type": "string"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

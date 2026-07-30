@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_philosophy_model_nodes",
+  "info": {
+    "displayName": "PhilosophyModelNode"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

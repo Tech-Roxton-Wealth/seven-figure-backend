@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_offices_remote_items",
+  "info": {
+    "displayName": "Offices Remote Item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_page_sections_numbered_lists",
+  "info": {
+    "displayName": "Numbered List"
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "feature-grid",
+        "boundary",
+        "value-stream",
+        "feature-strip"
+      ],
+      "default": "feature-grid",
+      "required": true
+    },
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.numbered-list-item",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

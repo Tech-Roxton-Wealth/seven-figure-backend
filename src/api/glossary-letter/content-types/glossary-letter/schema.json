@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "glossary_letters",
+  "info": {
+    "singularName": "glossary-letter",
+    "pluralName": "glossary-letters",
+    "displayName": "Glossary Letter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "letter": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1,
+      "required": true,
+      "unique": true
+    },
+    "articles": {
+      "type": "component",
+      "component": "ui.wf-glossary-article",
+      "repeatable": true
+    }
+  },
+  "pluginOptions": {}
+}

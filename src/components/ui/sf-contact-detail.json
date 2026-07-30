@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_sf_contact_details",
+  "info": {
+    "displayName": "SF Contact Detail"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

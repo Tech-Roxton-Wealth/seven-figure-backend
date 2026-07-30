@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_hmo_faq_deal_checks",
+  "info": {
+    "displayName": "HMO FAQ Deal Check"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.hmo-faq-check-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

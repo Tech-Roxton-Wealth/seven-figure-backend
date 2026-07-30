@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ui_joined_up_model_cards",
+  "info": {
+    "displayName": "JoinedUpModelCard"
+  },
+  "options": {},
+  "attributes": {
+    "cardNumber": {
+      "type": "string"
+    },
+    "layoutPosition": {
+      "type": "enumeration",
+      "enum": [
+        "model-card-1",
+        "model-card-2",
+        "model-card-3",
+        "model-card-4",
+        "model-card-5",
+        "model-card-6"
+      ],
+      "required": true
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

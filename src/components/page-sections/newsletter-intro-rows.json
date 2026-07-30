@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_newsletter_intro_rows_sections",
+  "info": {
+    "displayName": "NewsletterIntroRows"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "rows": {
+      "type": "component",
+      "component": "ui.numbered-intro-row",
+      "repeatable": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

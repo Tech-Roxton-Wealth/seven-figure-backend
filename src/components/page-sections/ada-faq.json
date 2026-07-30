@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_sections_ada_faqs",
+  "info": {
+    "displayName": "Ada FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "ui.ada-faq-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_sections_joined_up_disclaimers",
+  "info": {
+    "displayName": "Joined Up Disclaimer"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

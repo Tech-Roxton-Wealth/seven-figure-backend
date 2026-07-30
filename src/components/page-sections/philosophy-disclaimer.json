@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_sections_philosophy_disclaimers",
+  "info": {
+    "displayName": "Philosophy Disclaimer"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

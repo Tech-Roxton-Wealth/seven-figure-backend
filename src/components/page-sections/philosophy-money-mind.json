@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections_philosophy_money_minds",
+  "info": {
+    "displayName": "Philosophy Money Mind"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "columns": {
+      "type": "component",
+      "component": "ui.philosophy-mind-column",
+      "repeatable": true,
+      "max": 2
+    }
+  },
+  "config": {}
+}

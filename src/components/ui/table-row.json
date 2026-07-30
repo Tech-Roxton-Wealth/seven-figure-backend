@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ui_table_rows",
+  "info": {
+    "displayName": "Table Row"
+  },
+  "options": {},
+  "attributes": {
+    "serviceLabel": {
+      "type": "string"
+    },
+    "serviceTitle": {
+      "type": "string",
+      "required": true
+    },
+    "serviceDescription": {
+      "type": "text"
+    },
+    "amountLabel": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "amountNote": {
+      "type": "text"
+    },
+    "timingLabel": {
+      "type": "string"
+    },
+    "timingDescription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

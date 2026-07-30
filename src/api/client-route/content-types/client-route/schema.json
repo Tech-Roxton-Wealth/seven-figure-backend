@@ -1,0 +1,113 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_routes",
+  "info": {
+    "singularName": "client-route",
+    "pluralName": "client-routes",
+    "displayName": "ClientRoute"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "routeNumber": {
+      "type": "string"
+    },
+    "badgeText": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "client_route_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::client-route-category.client-route-category",
+      "inversedBy": "client_routes"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "layoutType": {
+      "type": "enumeration",
+      "default": "standard",
+      "enum": [
+        "standard",
+        "private-client"
+      ]
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "standard"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.client-route-hero",
+        "page-sections.client-route-persona-strip",
+        "page-sections.client-route-overview",
+        "page-sections.client-route-challenges",
+        "page-sections.client-route-image-break",
+        "page-sections.client-route-advice-areas",
+        "page-sections.client-route-process",
+        "page-sections.client-route-case-situations",
+        "page-sections.client-route-guides",
+        "page-sections.final-cta"
+      ]
+    },
+    "privateSections": {
+      "type": "dynamiczone",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "layoutType"
+            },
+            "private-client"
+          ]
+        }
+      },
+      "components": [
+        "page-sections.private-client-hero",
+        "page-sections.private-client-strip",
+        "page-sections.private-client-intro",
+        "page-sections.private-client-difference",
+        "page-sections.private-client-office",
+        "page-sections.private-client-audiences",
+        "page-sections.private-client-map",
+        "page-sections.private-client-scenario",
+        "page-sections.private-client-philosophy",
+        "page-sections.private-client-process",
+        "page-sections.private-client-contact",
+        "page-sections.private-client-disclaimer",
+        "page-sections.final-cta"
+      ]
+    }
+  },
+  "pluginOptions": {}
+}

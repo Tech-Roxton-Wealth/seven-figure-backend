@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_ui_joined_up_process_steps",
+  "info": {
+    "displayName": "JoinedUpProcessStep"
+  },
+  "options": {},
+  "attributes": {
+    "stepNumber": {
+      "type": "string"
+    },
+    "stepWord": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

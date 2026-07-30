@@ -1,6 +1,12 @@
 import type { Core } from '@strapi/strapi';
 
 const config = ({ env }: Core.Config.Shared.ConfigParams) => ({
+  'users-permissions': {
+    config: {
+      // Explicit secret so Strapi does not auto-generate / write JWT_SECRET to .env on boot.
+      jwtSecret: env('JWT_SECRET'),
+    },
+  },
   upload: {
     config: {
       provider: 'aws-s3',

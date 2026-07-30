@@ -10,6 +10,23 @@ function resolveDatabaseClient(value: string): DatabaseClient {
   return 'sqlite';
 }
 
+/**
+ * Remove sslmode (and related SSL query params) so pg-connection-string cannot
+ * override our explicit `{ rejectUnauthorized: false }` with `ssl: true`.
+ */
+function stripSslModeFromConnectionString(connectionString: string): string {
+  try {
+    const url = new URL(connectionString);
+    url.searchParams.delete('sslmode');
+    url.searchParams.delete('sslrootcert');
+    url.searchParams.delete('sslcert');
+    url.searchParams.delete('sslkey');
+    return url.toString();
+  } catch {
+    return connectionString.replace(/([?&])sslmode=[^&]*/gi, '$1').replace(/[?&]$/, '').replace(/\?&/, '?');
+  }
+}
+
 const config = ({ env }: Core.Config.Shared.ConfigParams) => {
   const client = resolveDatabaseClient(env('DATABASE_CLIENT', 'sqlite'));
   const acquireConnectionTimeout = env.int('DATABASE_CONNECTION_TIMEOUT', 60000);
@@ -40,24 +57,22 @@ const config = ({ env }: Core.Config.Shared.ConfigParams) => {
   }
 
   if (client === 'postgres') {
+    const rawUrl = env('DATABASE_URL', '').trim();
+    if (!rawUrl) {
+      throw new Error(
+        'DATABASE_URL is required when DATABASE_CLIENT=postgres. Set it to your Railway Postgres connection string.'
+      );
+    }
+
     return {
       connection: {
         client: 'postgres' as const,
         connection: {
-          // Railway (and most hosted Postgres) provides a single connection URL.
-          connectionString: env('DATABASE_URL'),
-          host: env('DATABASE_HOST', 'localhost'),
-          port: env.int('DATABASE_PORT', 5432),
-          database: env('DATABASE_NAME', 'strapi'),
-          user: env('DATABASE_USERNAME', 'strapi'),
-          password: env('DATABASE_PASSWORD', 'strapi'),
-          // Railway Postgres typically needs SSL; rejectUnauthorized:false is the usual setting.
-          // Override with DATABASE_SSL=false for local Postgres without TLS.
-          ssl: env.bool('DATABASE_SSL', Boolean(env('DATABASE_URL')))
-            ? {
-                rejectUnauthorized: env.bool('DATABASE_SSL_REJECT_UNAUTHORIZED', false),
-              }
-            : false,
+          connectionString: stripSslModeFromConnectionString(rawUrl),
+          // Railway Postgres uses certificates that require this for Node/pg.
+          ssl: {
+            rejectUnauthorized: false,
+          },
           schema: env('DATABASE_SCHEMA', 'public'),
         },
         pool: { min: env.int('DATABASE_POOL_MIN', 2), max: env.int('DATABASE_POOL_MAX', 10) },
